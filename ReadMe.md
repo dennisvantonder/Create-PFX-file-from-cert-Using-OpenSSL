@@ -48,7 +48,7 @@ Else use
 .\openssl version
 ```
 
-if that fails change directory to openssl installation location
+if `openssl` command does not work change directory to the installation location of openssl.exe and try using `.\openssl`
 
 ## 📍 Step 2 — Extract intermediate certificates from P7B (optional but recommended)
 
