@@ -55,7 +55,7 @@ If the Intermediate Chain file exist follow this step else it can be skipped
 ### Important File Paths with spaces must be in quotes
 
 ```cmd
-openssl pkcs7 -print_certs -in "C:\Users\Denni\Downloads\Farmwise SSL Certs\gd-g2_iis_intermediates.p7b" -out "C:\Temp\chain.pem"
+openssl pkcs7 -print_certs -in "C:\path\intermediates.p7b" -out "C:\Temp\chain.pem"
 ```
 
 Output:
